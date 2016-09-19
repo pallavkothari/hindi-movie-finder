@@ -10,10 +10,31 @@
     </item>
     <item
         jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/gson-2.7_2d46a4c2c1733846881a0a951bd1f14bbcb5c274.jar" />
+    </item>
+    <item
+        jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/internal_impl-24.1.1_78be72e09971ee8afa4c752df6e64d0607f3390d.jar" />
+    </item>
+    <item
+        jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
         jumboMode="true"
         revision="24.0.1"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
         <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_2d46a4c2c1733846881a0a951bd1f14bbcb5c274/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.1.1_721497691bb046f50558dbbe026b171ce269d37c.jar" />
     </item>
     <item
         jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
@@ -37,11 +58,46 @@
         <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_0f6dcb37066923667b086057794c76470026581b/classes.dex" />
     </item>
     <item
+        jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-24.1.1_0f6dcb37066923667b086057794c76470026581b.jar" />
+    </item>
+    <item
+        jar="/Users/pkothari/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/support-annotations-24.1.1_b7aa1ed1677c1bfcd2ff85000d1f82e14206cd3f.jar" />
+    </item>
+    <item
+        jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-24.1.1_4a6a7a47e0bb37f3c97137b3175d847e28538c0b.jar" />
+    </item>
+    <item
         jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
         jumboMode="true"
         revision="24.0.1"
         sha1="f62e763609f65e47dc6c498760a4accf02776788">
         <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_4a6a7a47e0bb37f3c97137b3175d847e28538c0b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/guava-19.0_1286454bb787ab47a30aeebb13f46442b6d56299.jar" />
+    </item>
+    <item
+        jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/okio-1.9.0_c2ef7bc650ee4beed044706c163c033000d04131.jar" />
     </item>
     <item
         jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
@@ -72,6 +128,20 @@
         <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.1_3b6642729ccda53a9463ddc1912ecbc2ec57c258/classes.dex" />
     </item>
     <item
+        jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-24.1.1_83ec46289806fe7ace1aafc6c2d7c48b00e6e4d7.jar" />
+    </item>
+    <item
+        jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/com.android.support-design-24.1.1_3b6642729ccda53a9463ddc1912ecbc2ec57c258.jar" />
+    </item>
+    <item
         jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.9.2/5e3bda828a80c7a21dfbe2308d1755759c2fd7b4/jsoup-1.9.2.jar"
         jumboMode="true"
         revision="24.0.1"
@@ -79,11 +149,25 @@
         <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsoup-1.9.2_a14d04975fa091771c416c82baa015ccfc43edd6/classes.dex" />
     </item>
     <item
+        jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.9.2/5e3bda828a80c7a21dfbe2308d1755759c2fd7b4/jsoup-1.9.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="5e3bda828a80c7a21dfbe2308d1755759c2fd7b4">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/jsoup-1.9.2_a14d04975fa091771c416c82baa015ccfc43edd6.jar" />
+    </item>
+    <item
         jar="/Users/pkothari/github/android/movies/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.1"
         sha1="fcf775b6b535326aabc93de13c1eafdce029d9a2">
         <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1e2c9d0eb6327388c2cb7b17f7959ea24c7f7bfd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/okhttp-3.4.1_4f76c2ba74145fa8f1ebdb81ea702c342944370f.jar" />
     </item>
     <item
         jar="/Users/pkothari/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
@@ -98,6 +182,13 @@
         revision="24.0.1"
         sha1="6f5a9a49466691ca354ad277e0d557997e2a7858">
         <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5b46a43fb7b63cd1ac144513de5eaf67948a49be/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/pkothari/github/android/movies/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-24.1.1_f71959ac623e7b7cc4adea550a96a4ca17397650.jar" />
     </item>
     <item
         jar="/Users/pkothari/github/android/movies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"

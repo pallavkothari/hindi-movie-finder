@@ -50,10 +50,7 @@ public class HindiMovieFinder {
         public void run() {
             try {
                 if ("Hindi".equals(getMovieLanguageFromOmdb(id))) {
-                    System.out.println("YAY!");
                     results.put(toReturn, "foo");
-                } else {
-                    System.out.println(id);
                 }
             } catch (IOException e) {
                 e.printStackTrace();    // oh well
