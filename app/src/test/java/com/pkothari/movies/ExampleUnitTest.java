@@ -1,5 +1,6 @@
 package com.pkothari.movies;
 
+import com.google.common.base.Stopwatch;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
@@ -25,8 +26,10 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void buildHtml() {
+        Stopwatch stopwatch = Stopwatch.createStarted();
         String go = HindiMovieFinder.go();
         System.out.println("go = " + go);
+        System.out.println("stopwatch = " + stopwatch);
     }
 
     @Test
