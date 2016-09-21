@@ -49,7 +49,9 @@ public class HindiMovieFinder {
         @Override
         public void run() {
             try {
-                if ("Hindi".equals(getMovieLanguageFromOmdb(id))) {
+                String lang = getMovieLanguageFromOmdb(id);
+                //System.out.println(id + " lang = " + lang);
+                if (lang.contains("Hindi")) {
                     results.put(toReturn, "foo");
                 }
             } catch (IOException e) {

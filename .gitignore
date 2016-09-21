@@ -58,8 +58,11 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 .idea/
-sequel.iml
+
 src/test/java/resources/
 target/
 
 .gradle/*
+*.iml
+
+
