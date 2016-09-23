@@ -1,12 +1,18 @@
 package com.pkothari.movies;
 
+import com.google.common.base.Preconditions;
 import com.google.common.base.Stopwatch;
+import com.google.common.collect.Iterables;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -27,8 +33,7 @@ public class ExampleUnitTest {
     @Test
     public void buildHtml() {
         Stopwatch stopwatch = Stopwatch.createStarted();
-        String go = HindiMovieFinder.go();
-        System.out.println("go = " + go);
+        System.out.println(HindiMovieFinder.go());
         System.out.println("stopwatch = " + stopwatch);
     }
 
@@ -50,5 +55,14 @@ public class ExampleUnitTest {
         System.out.println("language = " + language);
     }
 
+    @Test
+    public void findMovieName() throws Exception {
+        String url = "http://google.com/movies?near=94107&sort=1&start=1";
+        Document document = Jsoup.connect(url).get();
+        Elements movies = document.getElementsByClass("movie");
+        Elements nameElement = movies.get(0).getElementsByAttributeValue("itemprop", "name");
+        String text = nameElement.get(0).text();
+        System.out.println("nameElement = " + text);
+    }
 
 }

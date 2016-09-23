@@ -39,10 +39,12 @@ public class HindiMovieFinder {
     private static class OmdbTask implements Runnable{
 
         private final String id;
+        private final String name;
         private final String toReturn;
 
-        private OmdbTask(String id, String toReturn) {
+        private OmdbTask(String id, String name, String toReturn) {
             this.id = id;
+            this.name = name;
             this.toReturn = toReturn;
         }
 
@@ -50,7 +52,7 @@ public class HindiMovieFinder {
         public void run() {
             try {
                 String lang = getMovieLanguageFromOmdb(id);
-                //System.out.println(id + " lang = " + lang);
+//                System.out.println(String.format("%s (id=%s) languages = %s", name, id, lang));
                 if (lang.contains("Hindi")) {
                     results.put(toReturn, "foo");
                 }
@@ -102,7 +104,7 @@ public class HindiMovieFinder {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        String divs = emptyJoiner.join(elements);
+        String divs = elements.isEmpty() ? "No hindi movies found in SF :(" : emptyJoiner.join(elements);
         // fix img src's
         divs = divs.replaceAll("src=\"//ssl", "src=\"http://ssl");
         // fix other urls
@@ -126,11 +128,16 @@ public class HindiMovieFinder {
     }
 
     private static void process(Element movieDiv) throws IOException {
+        String name = getName(movieDiv);
         Elements imDb = movieDiv.getElementsContainingOwnText("IMDb");
         if (!imDb.isEmpty()) {
             String id = getId(imDb.get(0).attr("href"));
-            omdbSvc.submit(new OmdbTask(id, movieDiv.toString()));
+            omdbSvc.submit(new OmdbTask(id, name, movieDiv.toString()));
         }
+    }
+
+    private static String getName(Element movieDiv) {
+        return movieDiv.getElementsByAttributeValue("itemprop", "name").text();
     }
 
 
